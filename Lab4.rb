@@ -128,3 +128,20 @@ puts mixed1 == mixed2
 
 puts "This is an example of overloading the Comparable function in Ruby..."
 puts mixed1 < fraction1
+
+=begin
+OUTPUT
+These are examples of overloading the puts method in Ruby for my Fractions class...
+1/2
+3/4
+This is an example of overloading the == operator using Fractions...
+false
+These are examples of overloading the puts method in Ruby for my Mixed class...
+3 1/2
+3 3/4
+This is an example of overloading the == operator using Mixed...
+false
+This is an example of overloading the Comparable function in Ruby...
+false
+[Finished in 0.324s]
+=end
